@@ -11,7 +11,7 @@ it.
 @import '~normalize-scss/sass/normalize';
 @import './styles/variables';
 
-body {
+/*body {
     background-color: $body-bg;
     font-family: $font-family-base;
     margin: 0;
@@ -21,7 +21,7 @@ body {
     color: $text-color;
     line-height: $line-height-base;
     -webkit-font-smoothing: antialiased;
-}
+}*/
 
 // Headings
 // -------------------------
@@ -148,4 +148,14 @@ button {
   width: 100%;
   left: 0;
   text-align: center;
+}
+.container {
+  display: flex;
+  
+}
+
+.image{
+  max-width: 25%;
+  max-height:15%;
+  float: right;
 }

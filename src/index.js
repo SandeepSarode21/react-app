@@ -9,6 +9,7 @@ it.
 import { createRoot } from 'react-dom/client';
 import React from 'react';
 import App from './App';
+import "@adobe/universal-editor-cors";
 
 const container = document.getElementById('root');
 const root = createRoot(container);
